@@ -15,7 +15,7 @@ function Create() {
     const users = useSelector((state) => state.users);
     const dispatch = useDispatch();
     const navigate = useNavigate();
-
+//const
     const handleSubmit = (event) => {
         event.preventDefault();
         dispatch(addUser({ id: users.length + 1, name, email, phone, dateOfBirth, gender, weekday }));
